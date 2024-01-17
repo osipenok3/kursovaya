@@ -1,0 +1,44 @@
+img {
+    width: 300px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Bookman Old Style", serif;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0px 0px 1px 0px rgba(9, 30, 66, 0.31), 0px 3px 8px 0px rgba(9, 30, 66, 0.16);
+}
+
+#timetable {
+    background: white;
+    padding: 20px;
+    width: 80%;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+h5 {
+    color: #21110E;
+    font-size: 20px;
+    font-family: "Bookman Old Style", serif;
+}
+
+.description {
+    text-align: left;
+}
+
+.button {
+    font-size: 20px;
+    font-family: "Bookman Old Style", serif;
+    color: #21110E;
+    border-radius: 4px;
+    background: white;
+    border-bottom-color: #21110E;
+    border: double;
+    box-shadow: 0px 0px 1px 0px rgba(9, 30, 66, 0.31), 0px 3px 8px 0px rgba(9, 30, 66, 0.16);
+}
