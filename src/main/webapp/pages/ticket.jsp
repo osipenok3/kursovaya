@@ -6,7 +6,6 @@
     <title>Ticket</title>
     <style><%@include file="/styles/order.css"%></style>
     <style><%@include file="/styles/navbar.css"%></style>
-    <script type="text/javascript"><%@include file="/scripts/order.js"%>></script>
 </head>
 <body>
 <nav>
