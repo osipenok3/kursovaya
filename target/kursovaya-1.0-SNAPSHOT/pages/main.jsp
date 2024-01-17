@@ -12,9 +12,9 @@
     <table>
         <th>
         <td><%@include file="/assets/logo.svg"%></td>
-        <td><a href="http://localhost:8080/kursovaya_war_exploded/main" class="sign_word">Главная</a></td>
-        <td><a href="http://localhost:8080/kursovaya_war_exploded/poster" class="sign_word">Афиша</a></td>
-        <td><a href="http://localhost:8080/kursovaya_war_exploded/about" class="sign_word">О кинотеатре</a></td>
+        <td><a href="/main" class="sign_word">Главная</a></td>
+        <td><a href="/poster" class="sign_word">Афиша</a></td>
+        <td><a href="/about" class="sign_word">О кинотеатре</a></td>
         </th>
     </table>
 </nav>

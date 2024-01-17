@@ -12,9 +12,9 @@
     <table>
         <th>
         <td><%@include file="/assets/logo.svg"%></td>
-        <td><a href="http://localhost:8080/kursovaya_war_exploded/main" class="sign_word">Главная</a></td>
-        <td><a href="http://localhost:8080/kursovaya_war_exploded/poster" class="sign_word">Афиша</a></td>
-        <td><a href="http://localhost:8080/kursovaya_war_exploded/about" class="sign_word">О кинотеатре</a></td>
+        <td><a href="/main" class="sign_word">Главная</a></td>
+        <td><a href="/poster" class="sign_word">Афиша</a></td>
+        <td><a href="/about" class="sign_word">О кинотеатре</a></td>
         </th>
     </table>
 </nav>
@@ -25,7 +25,7 @@
     <ul>
         <c:forEach items="${films}" var="film">
         <li>
-            <div id="poster" onclick="window.location.href='http://localhost:8080/kursovaya_war_exploded/poster/${film.id}'" style="cursor: pointer;">
+            <div id="poster" onclick="window.location.href='/poster/${film.id}'" style="cursor: pointer;">
                 <header class="names">С <c:out value="${film.date_from.toString()}" /></header>
                 <img src="<%=request.getContextPath()%>/assets/<c:out value="${film.name_file}" />"/>
                 <header class="names"><c:out value="${film.name}" /></header>

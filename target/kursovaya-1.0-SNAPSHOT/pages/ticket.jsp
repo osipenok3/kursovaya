@@ -25,7 +25,7 @@
     <p>Время начала: <fmt:formatDate value="${ticket.date}" pattern="HH:mm"/></p>
     <p>Зал: ${ticket.hall}</p>
     <p>Выбранное место: Ряд - ${ticket.row} Место - ${ticket.place}</p>
-    <p>Стоимость: ${ticket.cost} руб.  ${id_user}</p>
+    <p>Стоимость: ${ticket.cost} руб.</p>
     <form action="#openModal" method="post" style="text-align: center">
         <span>Введите код оплаты</span>
         <input type="text" name="code">
